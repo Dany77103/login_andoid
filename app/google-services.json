@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "399648927223",
+    "project_id": "ivette2-ec406",
+    "storage_bucket": "ivette2-ec406.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399648927223:android:2de24f0326efd1598fd2f2",
+        "android_client_info": {
+          "package_name": "com.example.ivette2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpX-qa5VUnXmH733Gh7pxl3UjgbGeud1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
