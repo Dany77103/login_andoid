@@ -10,10 +10,10 @@
     tools:context=".Register">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        android:id="@+id/imageView2"
+        android:layout_width="237dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/cuenta" />
 
     <TextView
         android:id="@+id/textView2"
@@ -28,23 +28,26 @@
         android:id="@+id/correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="36dp"
         android:hint="ingresa tu correo"
-        android:layout_margin="36dp"/>
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/pass1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="36dp"
         android:hint="ingresa tu contraseña"
-        android:layout_margin="36dp"/>
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/pass2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ingresa tu contraseña de nuevo"
         android:layout_margin="36dp"
-        android:password="true"/>
+        android:hint="ingresa tu contraseña de nuevo"
+        android:minHeight="48dp"
+        android:password="true" />
 
     <Button
         android:id="@+id/button2"

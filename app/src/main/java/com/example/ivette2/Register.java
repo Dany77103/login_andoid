@@ -47,9 +47,7 @@ public class Register extends AppCompatActivity {
         String tpass2 = pass2.getText().toString().trim();
 
         if (pass1.getText().toString() == pass2.getText().toString()) {
-            Toast.makeText(this, "la contraseña no coincide", Toast.LENGTH_SHORT).show();
-            pass1.setText("");
-            pass2.setText("");
+            new Register();
         }
         else {
             Toast.makeText(this, "la contraseña no coincide", Toast.LENGTH_SHORT).show();
